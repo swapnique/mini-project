@@ -1,0 +1,67 @@
+<html>
+<head>
+<!--meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"-->
+<title>Student Info</title>
+</head>
+<body>
+<style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body {
+            font-family: Arial;
+            color: black;
+            background-image: url('stinbg2.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        input:active {
+            background-color: dodgerblue;
+            color: red;
+        }
+    </style>
+     <h1><marquee behavior="scroll" direction="left" scrollamount="15">Welcome to Student Info page</marquee></h1>
+    <ul><a href="middle.html">
+        <li><h3 style="text-align:left">Back To Main Page</h3></li>
+    </a><ul><br><br>
+     <fieldset style="width:95%;border:0"> 
+     <img src="logo.png" width="480" height="480" class="center"><br><br>
+     <center>  
+     <fieldset style="width:95%;border:0"> 
+     <form action="store.jsp" method="post">
+          <table>
+              <tr>
+                    <th colspan="2" style="padding:20px;">Student Info</th>
+              </tr>
+            
+              <tr>
+                    <td>Name: </td><td><input type="text" name="name"></td>
+              </tr>
+           
+              <tr>
+                    <td>Roll No: </td><td><input type="number" name="roll"></td>
+              </tr>
+
+              <tr>
+                    <td>class: </td><td><input type="number" name="pclass"></td>              
+              </tr>
+ 
+              <tr>
+                   <td>Section: </td><td><input type="text" name="section"></td>
+              </tr>
+
+              <tr>
+                    <td>Average Marks: </td><td><input type="text" name="marks"></td>
+              </tr>
+              <tr>
+                    <td><input type="submit"></td><td><button type="reset">Cancel</button></td>
+              </tr>
+          </table>
+      </form>
+      </fieldset>
+      </center>
+</body>
+</html>
